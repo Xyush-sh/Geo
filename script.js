@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", function () {
           console.log("Accuracy: " + accuracy + " meters");
 
           // Send location to Railway server
-          fetch("https://miniature-metal-plate.glitch.me/save-location", {
+          fetch("https://fbe791fc-9fb3-4d1e-9760-c79117d41429-00-1ckpnluj42n2q.sisko.replit.dev/save-location", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({
